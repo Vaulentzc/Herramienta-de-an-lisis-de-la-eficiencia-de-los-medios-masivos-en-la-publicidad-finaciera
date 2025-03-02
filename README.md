@@ -14,11 +14,3 @@ analisis_modelo_bert.py: Implementación del modelo BERT para análisis de senti
 analisis_sentimientos_espcocnnpl.py: Análisis de sentimientos para texto en español con spaCy con redes neuronales convolucionales, modelo NPL.
 
 analisis_sentimientos_inglesconnpl.py: Análisis de sentimientos para texto en inglés con spaCy y redes neuronales, modelo NPL.
-
-sentiment_analysis_dataset.csv: Dataset con comentarios sobre productos financieros utilizados para entrenar y validar los modelos.
-
-stock_tweets.csv: Dataset con tweets relacionados con el sector financiero.
-
-stockerbot-export1.csv: Dataset con comentarios sobre finanzas para análisis adicional.
-
-tweet_sentiment.csv: Dataset con sentimientos etiquetados para validar los resultados.
