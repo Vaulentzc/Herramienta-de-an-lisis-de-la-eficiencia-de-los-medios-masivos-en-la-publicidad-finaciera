@@ -66,9 +66,9 @@ for subreddit_name in subreddits:
 df = pd.DataFrame(list(comments_set), columns=['texto'])
 
 if df.empty:
-    print("⚠ No se encontraron comentarios. Revisa los subreddits y términos de búsqueda.")
+    print("No se encontraron comentarios. Revisa los subreddits y términos de búsqueda.")
 else:
-    print(f"✅ Se obtuvieron {len(df)} comentarios únicos.")
+    print(f"Se obtuvieron {len(df)} comentarios únicos.")
 
 # Función para limpiar texto
 def clean_text(text):
